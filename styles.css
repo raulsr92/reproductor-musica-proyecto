@@ -1,0 +1,23 @@
+/* ==== Estilos Globales === */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ==== Paleta de Colores === */
+
+:root{
+    --color1: #2e2e2e;
+    --color2: #181818;
+    --color3: #FFFF;
+    --color4: #1ED760;
+    --color5: #BEBEBE;
+    --color6: #000;
+    --color7: #939B9D;
+}
+
+
+
