@@ -19,5 +19,41 @@
     --color7: #939B9D;
 }
 
+/* ==== Propiedades en el contenedor padre === */
+
+body{
+    width: 100%;
+    height: auto;
+    margin-top: 18px;
+    margin-bottom: 25px;
+    background: linear-gradient(var(--color1), var(--color2));
+    color: var(--color3);
+}
+
+/* ==== Propiedades en la cabecera === */
 
 
+
+
+
+
+
+
+
+
+
+/*
+
+*/
+
+
+
+
+
+
+
+
+/* ==== Propiedades en el contenedor principal === */
+
+
+/* ==== Propiedades en el pie de página === */
