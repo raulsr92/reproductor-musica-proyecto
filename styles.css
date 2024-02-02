@@ -94,13 +94,23 @@ main{
 .cards-album{
     width: 100%;
     padding: 10px 0;
-    
+    display: flex;
+    column-gap: 20px;
+    overflow-x: scroll ;
+    scroll-snap-type: x mandatory;
 }
+
+.cards-album::-webkit-scrollbar{
+    display: none;
+}
+
 
 .cards-album article{
     width: 80%;
+    min-width: 300px;
     margin: 0 auto;
     display: grid;
+    scroll-snap-align: center;
 }
 
 .cards-album article img{
@@ -114,23 +124,6 @@ main{
 
 
 
-
-
-
-/*
-
-.cards-album{
-    display: flex;
-    overflow-x: scroll;
-}
-
-
-.cards-album article{
-    min-width: 300px;
-}
-
-
-*/
 
 /* ==== Propiedades en el contenedor principal === SECCIÓN 2 */
 
