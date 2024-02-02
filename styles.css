@@ -78,6 +78,37 @@ header > p{
     justify-self: center;
 }
 
+/* ==== Propiedades en el contenedor principal === */
+
+main{
+    width: 100%;
+    min-width: 375px;
+    height: auto;
+    display: grid;
+    row-gap: 10px;
+    margin-bottom: 35px;   
+}
+
+/* ==== Propiedades en el contenedor principal === SECCIÓN 1 */
+
+.cards-album{
+    width: 100%;
+    padding: 10px 0;
+    
+}
+
+.cards-album article{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+}
+
+.cards-album article img{
+    width: 100%;
+}
+
+
+
 
 
 
@@ -88,18 +119,21 @@ header > p{
 
 /*
 
+.cards-album{
+    display: flex;
+    overflow-x: scroll;
+}
+
+
+.cards-album article{
+    min-width: 300px;
+}
 
 
 */
 
+/* ==== Propiedades en el contenedor principal === SECCIÓN 2 */
 
-
-
-
-
-
-
-/* ==== Propiedades en el contenedor principal === */
 
 
 /* ==== Propiedades en el pie de página === */
