@@ -115,17 +115,53 @@ main{
 
 .cards-album article img{
     width: 100%;
+    border-radius: 10px;
+}
+
+/* ==== Propiedades en el contenedor principal === SECCIÓN 2 */
+
+.controles-reproductor{
+    width: 100%;
+    height: auto;
+    padding: 0 25px;
+}
+
+.p-content{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color3);
+    font-weight: 500;
+}
+
+.p-medium{
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--color5);
+}
+
+.p-small{
+    font-size: 10px;
+    line-height: 15px;
+    color: var(--color7);
+}
+
+.icon-3{
+    font-size: 18px;
+}
+
+.icon-4{
+    font-size: 20px;
+}
+
+.icon-5{
+    font-size: 28px;
+}
+
+.controles-reproductor > div:nth-child(1){
+    display: flex;
 }
 
 
-
-
-
-
-
-
-
-/* ==== Propiedades en el contenedor principal === SECCIÓN 2 */
 
 
 
