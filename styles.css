@@ -236,6 +236,7 @@ main{
     height: 50px;
     border-radius: 50%;
     border: 0;
+    background: var(--color3);
 }
 
 .reproductor-buttons button:nth-child(3){
@@ -243,40 +244,18 @@ main{
     height: 80px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-.reproductor-buttons{
-    align-items: center;
-}
-
-
-.reproductor-buttons button:nth-child(3){
-    width: 80px;
-    height: 80px;
-}
-
-
-
-
-
-*/
-
-
-
-
-
 
 /* ==== Propiedades en el pie de página === */
 
+.icon-7{
+    font-size: 20px;
+    color: var(--color4);
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 0px 25px;
+    justify-content: space-between;
+}
